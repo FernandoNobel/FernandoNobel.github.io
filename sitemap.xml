@@ -4,12 +4,34 @@
   
   <url>
     <loc>https://fernandonobel.github.io/blog/</loc>
-    <lastmod>2019-12-05T17:20:00+01:00</lastmod>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/tags/</loc>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernandonobel.github.io/</loc>
-    <lastmod>2019-12-05T17:20:00+01:00</lastmod>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/mapa/</loc>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/tags/haiku/</loc>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/tags/poes%C3%ADa/</loc>
+    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -24,11 +46,6 @@
   </url>
   
   <url>
-    <loc>https://fernandonobel.github.io/tags/</loc>
-    <lastmod>2019-11-24T16:08:46+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fernandonobel.github.io/tags/reflexi%C3%B3n/</loc>
     <lastmod>2019-11-24T16:08:46+01:00</lastmod>
     <priority>0</priority>
@@ -37,12 +54,6 @@
   <url>
     <loc>https://fernandonobel.github.io/autarquia/</loc>
     <lastmod>2019-10-21T13:14:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fernandonobel.github.io/tags/poes%C3%ADa/</loc>
-    <lastmod>2019-10-21T13:14:06+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
