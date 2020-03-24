@@ -4,17 +4,28 @@
   
   <url>
     <loc>https://fernandonobel.github.io/blog/</loc>
-    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernandonobel.github.io/tags/</loc>
-    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernandonobel.github.io/</loc>
-    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
+    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/ultima_vez/</loc>
+    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/tags/reflexi%C3%B3n/</loc>
+    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -43,12 +54,6 @@
   <url>
     <loc>https://fernandonobel.github.io/derrumbe/</loc>
     <lastmod>2019-11-24T16:08:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fernandonobel.github.io/tags/reflexi%C3%B3n/</loc>
-    <lastmod>2019-11-24T16:08:46+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
