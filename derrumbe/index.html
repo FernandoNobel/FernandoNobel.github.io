@@ -2,8 +2,10 @@
 <html lang="es">
   <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Hugo 0.55.6" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   
   <link rel="stylesheet" href="https://fernandonobel.github.io/css/style.css">
@@ -14,46 +16,78 @@
 </head>
 
   <body>
-    <div>
-      <main id="main">
-      <div class="header">
-  <h1>Fernando Nóbel</h1>
-  <i>Bienvenidos a la gestalt</i>
-  <hr>
-</div>
+    <div class="container shadow p-3 mb-5 bg-white rounded">
+    <header class="page-header header container-fluid">
+  <div class="overlay"></div>
+  <div class="description">
+    <div class="container">
+      <div class="row">
+        <div class="col my-auto">
+          <img src="http://localhost:1313/img/my-face.png" class="border rounded-circle"> 
+        </div>
+        <div class="col my-auto">
+          <h1>Fernando Nóbel</h1>
+          <p>Bienvenidos a la gestalt</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-      <div class="navbar">
-  <ul>
-     
-    
-    
-    <li><a href="/"><i data-feather="home"></i> Inicio</a></li>
-     
-    
-    
-    <li><a href="/about/"><i data-feather="edit"></i> Sobre mí</a></li>
-     
-    
-    
-    <li><a href="/blog/"><i data-feather="edit"></i> Blog</a></li>
-     
-    
-    
-    <li><a href="/tags/"><i data-feather="tag"></i> Etiquetas</a></li>
-     
-    
-    
-    <li><a href="https://github.com/FernandoNobel"><i data-feather="git"></i> GitHub</a></li>
-    
-  </ul>
-</div>
-
+    <hr>
+<nav class="navbar navbar-expand-md">
+  <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav mx-auto">
+       
       
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/"><i data-feather="home"></i> Inicio</a>
+      </li>
+       
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/about/"><i data-feather="edit"></i> Sobre mí</a>
+      </li>
+       
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/blog/"><i data-feather="edit"></i> Blog</a>
+      </li>
+       
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/tags/"><i data-feather="tag"></i> Etiquetas</a>
+      </li>
+       
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/FernandoNobel"><i data-feather="git"></i> GitHub</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<hr>
 
-<div class="section">
-  <div class="entry">
-    <div class="title">Derrumbe</div>
+
     
+
+<article>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <h2>Derrumbe</h2>
+        
 
 
 <time class="date" datetime="2019-11-24">Nov 24, 2019</time>
@@ -65,8 +99,8 @@
   
 
 
-    <br><br>
-    <p>Desde hace unos meses estoy siendo más reflexivo de lo que suelo ser. Creo que estoy empezando a sentir lo que es madurar, o por lo menos, o soy más consciente de todo lo que he dejado atrás para llegar a donde estoy actualmente.</p>
+        <br><br>
+        <p>Desde hace unos meses estoy siendo más reflexivo de lo que suelo ser. Creo que estoy empezando a sentir lo que es madurar, o por lo menos, o soy más consciente de todo lo que he dejado atrás para llegar a donde estoy actualmente.</p>
 
 <p>Desde pequeño tuve un afán de superación personal y de afrontar retos difíciles. En mi grupo de amigos yo era el más introvertido, el menos social por lo que rara vez el foco de atención se centraba en mí. Esto me permitía tener una visión privilegiada y pasiva de los eventos que ocurrían a mi al rededor. Muchas veces deseé poder ser el centro de la acción, pero también disfrutaba de poder entender de una forma no tan implicada como operaban las relaciones sociales. A lo largo de los años, he mejorado enormemente mis habilidades sociales, pero ha sido de una forma consciente y meditada. Lo cual me llena de orgullo, sigo teniendo una personalidad introvertida pero puedo desenvolverme con soltura en el mundo social.</p>
 
@@ -83,15 +117,25 @@
 <p>Hace pocos días se produjo un derrumbe más y cayó una de las piedras que pensaba que eran imprescindibles. Siento que seguirán cayendo y que poco a poco, y de una forma dolorosa, quedará solo el núcleo irreductible. Y entonces se despenderá un trozo más, un trozo que creía necesario. Y así hasta que todo se vacíe.</p>
 
 <p>Un final desnudo: que no quede ni yo mismo.</p>
+      </div>
+    </div>
   </div>
-</div>
+</article>
 
 
-      </main>
-      <div class="footer">
+    <div class="footer">
   <hr>
+  <br>
+  <center>
+  Copyright © FernandoNobel 2020
+  </center>
+  <br>
 </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="http://localhost:1313/js/main.js"></script>
     </div>
   </body>
 </html>

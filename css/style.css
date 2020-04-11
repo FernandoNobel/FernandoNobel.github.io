@@ -1,192 +1,120 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+:root {
+  --primary: #d3869b;
+  --dark: #111;
 }
 
-/* Add a gray background color with some padding */
 body {
-  font-family: Calibri;
-  font-size: 15.4px;
-  background: #F5F5F5;
-  width: 800px;
-  margin: auto;
-  color: #222222;
-  padding-left: calc(100vw - 100%);
-} 
-
-#main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 50px;
+  font-family: "Open Sans";
+  padding: 20px;
+  margin: 0;
+  background: #EEE;
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.17em; }
-h4 { font-size: 1.12em; }
-h5 { font-size: .83em; }
-h6 { font-size: .75em; }
+/*--- navigation bar ---*/
 
-p {
-  line-height: 1.4;
-  margin-bottom: 26px;
+.navbar {
+  background: white;
 }
 
-/* Header/Blog Title */
+.nav-link,
+.navbar-brand {
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*--- Header ---*/
+
 .header {
-  width: 100%;
-  padding-top: 60px;
-  margin-bottom: 20px;
-  text-align: center;
-  border-style: solid;
-  border-width: 0px 0px 0px 0px;
-  grid-column: 1 / 4;
+  background-image: url('http://localhost:1313/img/header.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.description {
+  width:100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.description h1 {
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.description p {
+  color: var(--dark);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.description img {
+  float: right;
+  background-color: white;
+  width:50%;
+  border-width:5px !important;
+  border-color:#ddd !important;
+}
+
+/*--- Fade line ---*/
 
 hr {
-  width: 470px;
-  margin: auto;
-  margin-top: 30px;
-  border: none;
-  height: 1px;
-  color: black;
-  background-color: black;
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#CCC), to(#CCC), color-stop(50%, #888));
 }
 
-.header h1 {
-  font-size: 40px;
+/*--- Post ---*/
+
+article {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left:100px;
+  padding-right:100px;
 }
 
-.header i {
-  font-size: 18px;
+article h2 {
+  font-weight: 400;
+  color: var(--dark);
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.section {
-  width: 500px;
-  padding: 20px;
-  padding-top: 30px;
-  padding-bottom: 0px;
-  grid-column: 2;
-}
-
-/* Navigation bar */
-.navbar {   
-  width: 100%;
-  padding-top: 30px;
-  text-align: right;
+article img {
+  width: 70%;
 }
 
 a {
-  color: #222222;
+  color: var(--primary);
   padding-bottom: 5px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
 a:hover {
-  color: #d3869b;
-}
-
-
-.navbar li a {
-  display: block;
-  color: #222222;
-  padding-bottom: 5px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-.navbar li a:hover {
-  color: #d3869b;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding-top: 0px;
-  padding-bottom: 80px;
-  grid-column: 1 / 4;
-}
-
-.entry {
-  padding-bottom: 60px;
-}
-
-.entry:last-child{
-  padding-bottom: 0;
-}
-
-.entry .title {
-  font-size: 1.5em;
-  font-weight: bold;
-  padding-bottom: 20px;
-}
-
-.entry .title::first-letter{
-  text-transform: capitalize;
-}
-
-.entry .title a:hover {
-  color: #222222;
-}
-
-.entry .date {
-  font-size: 1em;
-  font-style: italic;
-  text-align: left;
-
-  color: #d3869b;
-}
-
-.entry .readmore {
-  color: #222222;
-  text-decoration: none;
-  line-height: 3;
-  font-style: italic;
-}
-
-/* Change the link color on hover */
-.entry .readmore:hover {
-  color: #d3869b;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  body{
-
-    width: 100%;
-  }
-  #main {
-    display: block;
-  }
-  .rightcolumn{
-    width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .section{
-    width: 100%;
-    margin: auto;
-  }
-  .navbar {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 20px;
-    text-align: center;
-  }
-  .navbar li{
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 1.12em;   
-    padding-bottom: 20px;
-  }
-
-  hr {
-    width: 90%;
-  }
+  color: var(--primary);
 }
