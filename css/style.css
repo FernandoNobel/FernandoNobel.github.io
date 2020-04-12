@@ -37,7 +37,7 @@ body {
 /*--- Header ---*/
 
 .header {
-  background-image: url('http://localhost:1313/img/header.png');
+  background-image: url('/img/header.png');
   background-size: cover;
   background-position: center;
   position: relative;
