@@ -36,48 +36,13 @@ body {
 
 /*--- Header ---*/
 
-.header {
-  background-image: url('/img/header.png');
-  background-size: cover;
-  background-position: center;
-  position: relative;
+#header {
+  text-align: center;
 }
 
-.overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.description {
-  width:100%;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -55%);
-}
-
-.description h1 {
-  color: var(--dark);
-  font-weight: 600;
-}
-
-.description p {
-  color: var(--dark);
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-.description img {
-  float: right;
+#header img {
   background-color: white;
-  width:50%;
-  border-width:5px !important;
-  border-color:#ddd !important;
+  width:40%;
 }
 
 /*--- Fade line ---*/
@@ -89,6 +54,7 @@ hr {
     background: #333;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#CCC), to(#CCC), color-stop(50%, #888));
 }
+
 
 /*--- Post ---*/
 
