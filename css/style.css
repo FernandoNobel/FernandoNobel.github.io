@@ -5,9 +5,14 @@
 
 body {
   font-family: "Open Sans";
+  font-size:16px;
   padding: 20px;
   margin: 0;
   background: #EEE;
+}
+
+body .container {
+  width: 700px;
 }
 
 /*--- navigation bar ---*/
@@ -54,24 +59,13 @@ body {
 }
 
 
-/*--- Fade line ---*/
-
-hr {
-    margin: 0;
-    border: 0;
-    height: 1px;
-    background: #333;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#CCC), to(#CCC), color-stop(50%, #888));
-}
-
-
 /*--- Post ---*/
 
 article {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  padding-left:100px;
-  padding-right:100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 article h2 {
@@ -80,7 +74,7 @@ article h2 {
 }
 
 article img {
-  width: 70%;
+  width: 50%;
 }
 
 a {
