@@ -3,18 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fernandonobel.github.io/</loc>
+    <lastmod>2020-10-07T11:26:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://fernandonobel.github.io/blog/</loc>
-    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
+    <lastmod>2020-10-07T11:26:52+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernandonobel.github.io/tags/</loc>
-    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
+    <lastmod>2020-10-07T11:26:52+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fernandonobel.github.io/</loc>
-    <lastmod>2020-03-24T21:21:34+01:00</lastmod>
+    <loc>https://fernandonobel.github.io/se%C3%B1or_volicion/</loc>
+    <lastmod>2020-10-07T11:26:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernandonobel.github.io/tags/poes%C3%ADa/</loc>
+    <lastmod>2020-10-07T11:26:52+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,12 +47,6 @@
   
   <url>
     <loc>https://fernandonobel.github.io/tags/haiku/</loc>
-    <lastmod>2020-02-04T23:47:48+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernandonobel.github.io/tags/poes%C3%ADa/</loc>
     <lastmod>2020-02-04T23:47:48+01:00</lastmod>
     <priority>0</priority>
   </url>

@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Entradas del blog on Fernando Nóbel</title>
+    <title>Entradas del blog on El jardín de Gestalt</title>
     <link>https://fernandonobel.github.io/blog/</link>
-    <description>Recent content in Entradas del blog on Fernando Nóbel</description>
+    <description>Recent content in Entradas del blog on El jardín de Gestalt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 24 Mar 2020 21:21:34 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2020 11:26:52 +0200</lastBuildDate>
     
 	<atom:link href="https://fernandonobel.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Señor volición</title>
+      <link>https://fernandonobel.github.io/se%C3%B1or_volicion/</link>
+      <pubDate>Wed, 07 Oct 2020 11:26:52 +0200</pubDate>
+      
+      <guid>https://fernandonobel.github.io/se%C3%B1or_volicion/</guid>
+      <description>&lt;p&gt;¿Dónde se esconde el señor volición?&lt;/p&gt;
+
+&lt;p&gt;Yo no elijo entender algo.&lt;br&gt;
+Simplemente lo entiendo, &lt;br&gt;
+o no lo entiendo.&lt;/p&gt;
+
+&lt;p&gt;No puedo entender lo que no entiendo,&lt;br&gt;
+o no entender lo que entiendo.&lt;br&gt;
+Es ajeno a mi voluntad.&lt;/p&gt;
+
+&lt;p&gt;¿Dónde se esconde el señor volición?&lt;/p&gt;
+
+&lt;p&gt;Pienso en todas las cosas buenas y&lt;br&gt;
+malas que me ocurrieron en el pasado.&lt;/p&gt;
+
+&lt;p&gt;Pero solo florecen en mi mente unas pocas:&lt;br&gt;
+no puedo eligir cuales quiero recordar,&lt;br&gt;
+ni cuales quiero olvidar.&lt;/p&gt;
+
+&lt;p&gt;E intentar lo contrario: es un acto inerte. &lt;br&gt;
+No puedo olvidar lo que recuerdo, &lt;br&gt;
+igual que no puedo recordar lo que olvido.&lt;/p&gt;
+
+&lt;p&gt;¿Dónde se esconde el señor volición?&lt;/p&gt;
+
+&lt;p&gt;De qué puedo estar seguro que depende de mí&lt;br&gt;
+y no de mi entorno.&lt;/p&gt;
+
+&lt;p&gt;Soy una luz, un relámpago que desafía toda ruta establecida. &lt;br&gt;
+Causado por la fricción de partículas de agua en el aire.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>La última vez</title>
