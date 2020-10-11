@@ -3,16 +3,35 @@
   --dark: #111;
 }
 
-body {
-  font-family: "Open Sans";
-  font-size:15px;
-  padding: 20px;
-  margin: 0;
-  background: #f6f6f6;
+html {
+  font-size:1rem;
 }
 
-body .container {
-  width: 700px;
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  background: #f6f6f6;
+  font-family: "Open Sans";
+}
+
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: var(--dark);
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 /*--- navigation bar ---*/
@@ -29,7 +48,7 @@ body .container {
 
 .nav-link {
   margin-right: 10px !important;
-  font-size: 13px;
+  font-size: 0.9rem;
 }
 
 .nav-link:hover {
@@ -54,13 +73,6 @@ body .container {
   width:40%;
 }
 
-#header h1{
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 32px;
-}
-
 
 /*--- Post ---*/
 
@@ -71,22 +83,16 @@ article {
   padding-right: 40px;
 }
 
-article h2 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  color: var(--dark);
-}
-
 article img {
   width: 50%;
 }
 
 article time{
-  font-size: 13px;
+  font-size: 0.9rem;
 }
 
 a {
-  font-size: 13px;
+  font-size: 0.9rem;
   color: var(--primary);
   padding-bottom: 5px;
   text-decoration: none;
@@ -95,4 +101,20 @@ a {
 /* Change the link color on hover */
 a:hover {
   color: var(--primary);
+}
+
+/*--- Responsive ---*/
+
+/* Fluid typography formula */
+@media (min-width: 640px) and (max-width: 1439px) {
+  html {
+    font-size: calc(15px + (18 - 15) * (100vw - 640px) / (1439 - 640));
+  }
+}
+
+/* Define max font size */
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
 }
