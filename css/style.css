@@ -105,6 +105,12 @@ a:hover {
 
 /*--- Responsive ---*/
 
+@media (max-width: 480px) { 
+  article {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 /* Fluid typography formula */
 @media (min-width: 640px) and (max-width: 1439px) {
   html {
